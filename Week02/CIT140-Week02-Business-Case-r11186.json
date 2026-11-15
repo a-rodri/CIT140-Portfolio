@@ -1,0 +1,129 @@
+{
+  "format": "command-nexus-weekly-report",
+  "schemaVersion": 1,
+  "courseId": "CIT140",
+  "week": 2,
+  "assignmentId": "CIT140-W02-BUSINESS-CASE",
+  "artifactType": "business-case-recommendation",
+  "caseId": "meridian-forge",
+  "reportId": "8218fb74-f5d5-4e57-827b-11e6b0db7c81",
+  "revision": 11186,
+  "createdAt": "2026-09-26T02:13:27.118Z",
+  "exportedAt": "2026-09-29T06:39:29.580Z",
+  "learnerLabel": "",
+  "contentStatus": "complete-fields",
+  "sections": [
+    {
+      "id": "project",
+      "title": "Proposed project",
+      "value": "A review of the QA Control Review would be a good start to figuring out the problem, as well as a review of what components of the system still have access to the retired test. In maintenance records it stated k-44 was not removed from every copy, service, and schedule, and it would be beneficial to further expand on why that is. "
+    },
+    {
+      "id": "need",
+      "title": "Business need",
+      "value": " W02-S02 shows only two of the six tests was able to give back data of an identified custodian and link to original source without needing backup, the lack of data from the test show that there's a need to find a less complicated way of finding out data for an error. "
+    },
+    {
+      "id": "value",
+      "title": "Expected value and beneficiaries",
+      "value": "The benefits of this review would be to locate where the issue is exactly, and knowing where the command is coming from.  This will make it easier to take direct action to handle why a retired test was able to pass through the system, and subsequently prevent an issue like this from happening again. "
+    },
+    {
+      "id": "scopeIn",
+      "title": "Included work",
+      "value": "The proposed scope in W02-S03 is to review command-authorization in the affected cell, inspect the controls that are used to retire tests, and look for gaps that led to this error happening. "
+    },
+    {
+      "id": "scopeOut",
+      "title": "Excluded work",
+      "value": "The request does not allow a restart, changes to how the system works, change original records, and reviewing other cells. "
+    },
+    {
+      "id": "technical",
+      "title": "Technical feasibility",
+      "value": "The access condition in W02-S04 is that the review will be using existing documentation tools and read-only exports. Since the information that is being looked for is where the command is coming from and the error that takes place, without any actual changes to the system taking place, the review is able to go through with read-only reports. "
+    },
+    {
+      "id": "operational",
+      "title": "Operational feasibility",
+      "value": "Both Elias Chen, the robotics system engineer, and Nia, the night QA supervisor would need to confirm availability would need to confirm their availability since in W02-S04, they would need to be available during certain days throughout the 8 day operation. Elias would need to be available for 12 hours throughout the days after day 4. Nia would need to be available for 8 hours during days 5-7. \n"
+    },
+    {
+      "id": "resources",
+      "title": "Cost and resource feasibility",
+      "value": "According to W02-S05, the planning range for the review is between 40-60 hours, which is what led to the cost range being between $2,359-$3,525. The base estimate of $2,820 is based on the staffs total hours being 48 hours. This range does surpass the funding for the review, being $3,000 which could lead to some thing being excluded. Some exclusions could be limiting doing full inventory of the controls used to retire its test, or a full evidence-preservation checklist if it goes over budget. "
+    },
+    {
+      "id": "schedule",
+      "title": "Schedule feasibility",
+      "value": "The 8 day business plan with the ten-day limit has 2 business days of headroom based on staffing hours and access. The work is dependent on staff availability throughout the entire review since they will have to do this review alongside their regular workload schedule. The 48 hours from base estimate is overall hours put into review throughout the 8 days. "
+    },
+    {
+      "id": "constraints",
+      "title": "Known constraints",
+      "value": "The known budget is $3,000 dollars, the schedule is limited to around 48 available staff hours split among the analyst, engineer, QA supervisors, and operations. Access is limited since the exports will be available by day 3, but review tasks can overlaps. "
+    },
+    {
+      "id": "risks",
+      "title": "Risks and assumptions",
+      "value": "Some risks include schedule availability or errors in delivering exports on time which could lead to delay in review. The error in delivery exports would be the biggest risk factor and the way one would check to make sure it is delivered on time is to make sure everything is set up in place so there is no issue in creating or receiving the read-only exports.  The scheduling availability would need checking to be completely sure that everyone is able to play their part in finishing the review. "
+    },
+    {
+      "id": "success",
+      "title": "Success measures and evidence",
+      "value": "W02-S02 shows two of six record sets gave both an identified custodian and a link to the source. Four required follow-up to establish one or both. All within a time span of 60 minutes. With the allocated 10 ten days of the review and the course of action described in W02-S03,  there will be a lot more progress in finding more information over how the source is connected to the error and paint a clearer picture of series of steps that led to the test being accepted. "
+    },
+    {
+      "id": "recommendation",
+      "title": "Recommendation",
+      "value": "proceed"
+    },
+    {
+      "id": "rationale",
+      "title": "Rationale and conditions",
+      "value": "W02-S03 has a good balance of investigating into multiple factors that would be involved how test k-44 ended up being accepted by the system. There is review of the affected cell, a look into the scheduling and controls of retiring tests, preserving evidence, and seeing gaps in the system. \nW02-S05 explains how, even though the highest part of the planning range does exceed 3,000, the base estimate is under $3,000 which is possible if the total hours are 48 which wouldn't be an issue with confirmed availability. "
+    },
+    {
+      "id": "nextStep",
+      "title": "Next authorization or information step",
+      "value": "Nia and Elias should obtain information over multiple things such as the controls of the system, figuring out the unknown source reference, and making sure the evidence is recorded. Then Mara could overlook it all to deliver it. "
+    }
+  ],
+  "sources": [
+    {
+      "id": "W02-S01",
+      "title": "Request for a bounded review",
+      "locator": "Week 2 decision packet · W02-S01"
+    },
+    {
+      "id": "W02-S02",
+      "title": "Evidence-retrieval workload",
+      "locator": "Week 2 decision packet · W02-S02"
+    },
+    {
+      "id": "W02-S03",
+      "title": "Proposed scope and current workflow",
+      "locator": "Week 2 decision packet · W02-S03"
+    },
+    {
+      "id": "W02-S04",
+      "title": "Capacity, access and operating limits",
+      "locator": "Week 2 decision packet · W02-S04"
+    },
+    {
+      "id": "W02-S05",
+      "title": "Estimate and success-measure sheet",
+      "locator": "Week 2 decision packet · W02-S05"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "repository-check",
+      "filename": "Week02_Repository_Check.png",
+      "kind": "supporting-evidence",
+      "caption": "Required Week 2 repository screenshot; supply the actual file separately. This reference does not verify an upload.",
+      "sourceIds": []
+    }
+  ],
+  "relatedReportIds": []
+}
