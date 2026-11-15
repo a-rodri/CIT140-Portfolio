@@ -1,0 +1,11 @@
+list 3-5 practical tools, templates, or supports in your system. What does each one help the learner build, decide, navigate?
+Some practical tools and supports would be the records, whether that be the scheduling records, operation records, or maintenance which are key to finding the location of the issue to then find a possible route to figure out a solution in a review. Another tool was the 6 tests ran to figure out the source code of the command that led to the approval of the retired test. They were helpful in finding out more about the road to the error in the system without having to waste much time or resources. Lastly, the crucial support was the night QA supervisor Nia who was able to alert of the error in the system in the first place, without fast reporting, the issue cannot be handled efficiently and would to bigger impacts across the system as a whole.
+
+
+
+Write 3 identity-building questions that help learners discover what they bring to the work. 
+What would be affected if something was impeding on you finishing you work? 
+
+What factors can be improved upon to make your job more efficient?
+
+How can we ensure results are going to be accurate and reliable? 
